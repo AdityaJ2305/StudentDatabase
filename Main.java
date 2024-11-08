@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        for(int in=1;in>0;in++){
+        while(true){
         Scanner sc = new Scanner(System.in);
         System.out.println("1. Add Student");
         System.out.println("2. View Students");
